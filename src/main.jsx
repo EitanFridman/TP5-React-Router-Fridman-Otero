@@ -4,9 +4,9 @@ import { BrowserRouter } from 'react-router';
 import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <BrowserRouter basename="/TP4-Citas-Fridman-Otero">
+  <BrowserRouter basename="/TP5-React-Router-Fridman-Otero">
+    <StrictMode>
       <App />
-    </BrowserRouter>
-  </StrictMode>
+    </StrictMode>
+  </BrowserRouter>
 );
